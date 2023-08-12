@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">Martín Castro<span> Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navbar contenedor">
+            <a href="#">Inicio</a>
+            <a href="#service">Servicios</a>
+            <a href="#">Portfolio</a>
+            <a href="#" download="">Descarga CV</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <video src="video-background.mp4" onloadedmetadata="this.muted = true" autoplay loop muted></video>
+        <div class="contenido-hero">
+            <h2>Técnico en Sistemas Computacionales</h2>
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f4d06f" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p>La Paz, Baja California Sur, México</p>
+    
+            <a class="btn" href="#contacto">Contactar</a>
+        </div> 
+    </section>
+   
+    <main id="service" class="contenedor sombra">
+
+       <h2>Servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Mantenimiento preventivo</h3>
+                <div class="iconos">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5" />
+                    </svg>
+                </div>
+                <p>Mantenimiento preventivo es el cambio periódico del hardware en un equipo, se deduce el tiempo de duración que puede tener una "pieza" y así se estima cuándo hacerse un cambio o limpieza del equipo.</p>
+            </section>
+     
+            <section class="servicio">
+                <h3>Desarrollo de sitios web</h3>
+                <div class="iconos">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-code-2" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10 12h-1v5h1" />
+                    <path d="M14 12h1v5h-1" />
+                    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                    </svg>
+                </div>
+                <p>¿Necesita una página web para su negocio o emprendimiento personal? Hoy en día una página web brinda mucho alcance y hace que luzca mejor cualquier negocio, siempre y cuando se logre ver bien en todo tipo de dispositivo.</p>
+            </section>
+     
+            <section class="servicio">
+                <h3>Formateos e instalaciones</h3>
+                <div class="iconos">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 5h6v14h-6z" />
+                    <path d="M12 9h10v7h-10z" />
+                    <path d="M14 19h6" />
+                    <path d="M17 16v3" />
+                    <path d="M6 13v.01" />
+                    <path d="M6 16v.01" />
+                    </svg>
+                </div>
+                <p>Un equipo de cómputo lento o con un tipo de virus necesita formatearse, al igual que algunas veces se necesita la instalación del sistema operativo, un programa o alguna paquetería. </p>
+            </section>
+     
+            <section class="servicio">
+                <h3>Asesorías técnicas</h3>
+                <div class="iconos">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-help" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                    <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" />
+                    </svg>
+                </div> 
+                <p>Si necesita ayuda o apoyo a la hora de querer comprar/armar su propio equipo de cómputo, me encontraré preparado hacia el tipo de ordenador que desea y al igual que el propósito el cual le quiere dar.</p>
+            </section>
+        </div>
+        
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctame llenando los siguientes campos:</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre:</label>
+                            <input class="input-text" type="text" placeholder="Escribe tu nombre" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Teléfono:</label>
+                            <input class="input-text" type="tel" placeholder="Escribe tu número telefónico"> 
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo:</label>
+                            <input class="input-text" type="email" placeholder="Escribe tu correo electrónico" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="input-text" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="enviar">
+                        <input class="btn send" type="submit" value="Enviar">
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados. Martín Castro</p>
+    </footer>
+    
+    
+</body>
+</html>
